@@ -1,0 +1,13 @@
+{
+  "name": "privacy-sandbox",
+  "version": "1.0.0",
+  "repository": "git@bitbucket.org:plaxieappier/privacy-sandbox.git",
+  "private": true,
+  "workspaces": [
+    "advertiser",
+    "dsp",
+    "publisher",
+    "ssp"
+  ],
+  "packageManager": "yarn@3.6.2"
+}

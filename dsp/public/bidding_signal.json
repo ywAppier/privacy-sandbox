@@ -1,0 +1,44 @@
+{
+  "partitions": [
+    {
+      "id": 0,
+      "keyGroupOutputs": [
+        {
+          "tags": [
+            "structured",
+            "groupNames"
+          ],
+          "keyValues": {
+            "InterestGroup1": {
+              "value": {
+                "priorityVector": {
+                  "signal1": 1
+                }
+              },
+              "dedicated_ttl_sec": 1
+            }
+          }
+        },
+        {
+          "tags": [
+            "custom",
+            "keys"
+          ],
+          "keyValues": {
+            "keyAfromInterestGroup1": {
+              "value": "valueForA",
+              "dedicated_ttl_sec": 120
+            },
+            "keyBfromInterestGroup1": {
+              "value": [
+                "value1ForB",
+                "value2ForB"
+              ],
+              "dedicated_ttl_sec": 60
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
